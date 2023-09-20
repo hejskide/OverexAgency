@@ -78,7 +78,7 @@ html {
 }
 
 body {
-  background: url(assets/img/illustration/B.gif);
+  background: url(assets/img/illustration/Main.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2703,15 +2703,26 @@ body,
   position: relative;
 }
 
-.fixed-bottom-shape {
+.fixed-center-shape {
     position: absolute;
     left: 0;
-    width: 100%;
-    bottom: -2px;
+    height: 100%;
+    bottom: 0px;
+}
+
+.fixed-center-shape img {
+  width: 100%;
+}
+
+.fixed-bottom-shape {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: -2px;
 }
 
 .fixed-bottom-shape img {
-  width: 100%;
+width: 100%;
 }
 
 .fixed-shape-bottom {
@@ -2953,7 +2964,7 @@ body,
     position: absolute;
     left: -50px;
     top: -50px;
-    background: url(assets/img/round-shappe.png);
+    background: url(assets/img/round-shappe.png1);
     content: "";
     height: 150px;
     width: 150px;
@@ -4205,6 +4216,14 @@ ul.achivement li:last-child .counter {
     position: absolute;
     left: -20%;
     top: 0;
+}
+
+.feature-area .fixed-center-shape {
+  bottom: 0px;
+}
+
+.dark-layout .feature-area .fixed-center-shape {
+  display: none;
 }
 
 .feature-area .fixed-bottom-shape {
