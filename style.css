@@ -78,10 +78,10 @@ html {
 }
 
 body {
-  background: url(assets/img/illustration/Main.gif);
+  /*background: url(assets/img/illustration/Main.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
   font-weight: 400;
